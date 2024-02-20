@@ -19,7 +19,29 @@
     margin-right: 30px;
 }
 
-
 .filters button:hover{
     opacity: 0.9   ;
+}
+
+.locations ,.amenities{
+    height: 100%;
+    width:25%;
+    display: inline-block  ;
+    align-items: center;
+    margin-left: 10px;
+}
+.locations {
+    border-right: 1px solid #dddddd;
+}
+
+.filters h3{
+    font-weight: 600;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.filters h4{
+    font-size: 14px;
+    font-weight: 400;
+    margin:0;
+    padding: 0;
 }
